@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Up Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to the Best Up Store</h2>
+            <p>Your one-stop shop for quality furniture at photo prices.</p>
+        </div>
+    </section>
+
+    <section id="products" class="product-gallery">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-cards">
+                <div class="product-card">
+                    <img src="./SRC/PowerShotSX620.png" alt="">
+                    <h3>PowerShot SX620 </h3>
+                    <p>Comfortable and stylish. Perfect for anything.</p>
+                    <p class="price">$299</p>
+                </div>
+                <div class="product-card">
+                    <img src="./SRC/AlphaILCE-6000.png" alt="">
+                    <h3>Alpha ILCE-6000</h3>
+                    <p>Elegant photo that first up to 6 million people.</p>
+                    <p class="price">$399</p>
+                </div>
+                <div class="product-card">
+                    <img src="./SRC/X-T30Kit.png" alt="">
+                    <h3>X-T30 Kit</h3>
+                    <p>Ergonomic for all-day comfort at work.</p>
+                    <p class="price">$149</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us!</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Up store Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

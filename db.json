@@ -1,0 +1,25 @@
+{
+    "cards":[
+        {
+            "id": 1,
+            "title": "PowerShot SX620",
+            "price": 299.00,
+            "memory":"",
+            "image":"./scr/Asets/PowerShotSX620.png"
+        },
+        {
+            "id": 2,
+            "title": "Alpha ILCE-6000",
+            "price": 399.00,
+            "memory":"",
+            "image":"./scr/Asets/AlphaILCE-6000.png"
+        },
+        {
+            "id": 3,
+            "title": "X-T30 Kit",
+            "price": 149.00,
+            "memory":"",
+            "image":"./scr/Asets/X-T30Kit.png"
+        }
+    ]
+}
